@@ -317,7 +317,7 @@ void keyPressed() { // executed each time a key is pressed: sets the "keyPressed
            maxPatternElem = (maxPatternElem < 1?1:maxPatternElem-1);
            break;
         case 5:
-           dtwErrVal = (dtwErrVal < 100?100:dtwErrVal-1);
+           dtwErrVal = (dtwErrVal < 10?10:dtwErrVal-1);
            break;
       }  
     }
